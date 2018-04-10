@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生JS扫雷</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+
+<div class="wrapper"><!--整个背景-->
+    <div class="btn" id="btn"></div><!--开始按钮-->
+    <div class="box" id="box"></div><!--扫雷的雷盘，把生成的div动态插入到这里-->
+    <div class="flagBox" id="flagBox"><!--记录分数-->
+        当前剩余旗数：
+        <span id="score" id="score">10</span>
+    </div>
+    <div class="alertBox" id="alertBox"><!--游戏结果弹窗-->
+        <div class="alertImage" id="alertImage"><!--弹出的一张图片-->
+            <div class="close" id="close"></div><!--关闭按钮-->
+        </div>
+    </div>
+</div>
+<script src="demo.js"></script>
+</body>
+</html>
